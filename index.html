@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css"> <!-- {{ url_for('static', filename='style/style.css') }} -->
+    <!-- animate.css cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- boxcoins cdn -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active nav-item">Home<span></span></a>
+            <a href="#about" class="nav-item">About<span></span></a>
+            <a href="#projects" class="nav-item">Projects<span></span></a>
+            <a href="#contact" class="nav-item">Contact<span></span></a>
+            <a class="switch-div" id="switcher">
+                <i class='bx bxs-moon' id="toggler"></i>
+            </a>
+        </nav>
+    </header>
+
+    <section class="main-home-section" id="home">
+        <div class="home-section">
+            <h3>Hello, I'm</h3>
+            <h1>Givi Abesadze</h1>
+            <h3>I'm <span class="multiple-text"></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sit, recusandae. Corporis accusantium molestias quasi ea?</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100008795983654" target="_blank" class="tooltip"><i class="fa-brands fa-facebook-f"></i><span class="tooltiptext">Facebook</span></a>
+                <a href="https://www.linkedin.com/in/givi-abesadze/" target="_blank" class="tooltip"><i class="fa-brands fa-linkedin-in"></i><span class="tooltiptext">LinkedIn</span></a>
+                <a href="#" target="_blank" class="tooltip"><i class="fa-brands fa-twitter"></i><span class="tooltiptext">Twitter</span></a>
+                <a href="https://github.com/Giko20" target="_blank" class="tooltip"><i class="fa-brands fa-github"></i><span class="tooltiptext">Github</span></a>
+            </div>
+            <a href="Documents/Givi_Abesadze_CV.pdf" class="btn" download="Givi_Abesadze_CV">Download CV</a>
+        </div>
+        <div class="home-photo">
+            <img src="../images/ai-generated-g406a48185_1920.jpg" alt="my photo">
+        </div>
+    </section>
+    <section class="main-about-section" id="about">
+        <div class="about-section">
+            <div class="my-image">
+                <img src="images/ai-generated-g406a48185_1920.jpg" alt="">
+            </div>
+            <div class="about-me">
+                <h2 class="heading">About <span>Me</span></h2>
+                <div class="aboutme-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic dolor harum accusantium suscipit quidem nostrum, voluptatibus dignissimos, ea vero magni labore qui! Et explicabo sapiente delectus ea, beatae non saepe cupiditate deleniti maxime eveniet eum dicta dolorum incidunt, atque fuga id consequuntur corrupti, aliquid eius voluptatibus. Vero illum quibusdam sed.
+                </div>
+                <div class="contact-space">
+                    <a href="#contact" class="btn">Contact Me</a>
+                    <a href="#contact" class="btn">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-projects-section" id="projects">
+        <div class="my-projects">
+            <h2 class="heading">My <span>Projects</span></h2>
+            <div class="projects-container">
+                <div class="project pro-1">
+                    <div class="image">
+                        <img src="images/weather-app.jpg" alt="weather app" width="400" height="275">
+                    </div>
+                    <div class="project-layer">
+                        <h4>Weather Application</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quam?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project pro-2">
+                    <img src="images/shop-app.png" alt="shop app" width="400" height="275">
+                    <div class="project-layer">
+                        <h4>Online Market Application</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quam?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project pro-3">
+                    <img src="images/girl-g46fb6610e_640.png" alt="gym app" width="400" height="275">
+                    <div class="project-layer">
+                        <h4>Gym Application</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quam.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project pro-4">
+                    <img src="images/car-rental.png" alt="car rental app" width="400" height="275">
+                    <div class="project-layer">
+                        <h4>Car Rental Application</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quam?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project pro-5">
+                    <img src="images/online-interview-app.png" alt="online interview app" width="400" height="275">
+                    <div class="project-layer">
+                        <h4>Online Interview Application</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quam?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project pro-6">
+                    <img src="images/pets-home.png" alt="pets home" width="400" height="275">
+                    <div class="project-layer">
+                        <h4>Pets Home</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quam?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-contact-section" id="contact">
+        <div class="contactMe">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <form method="POST" action="#contact" onsubmit="sendEmail(); reset(); return false;">
+                <div class="input-box">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="full-name" id="full-name" placeholder="John Doe">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="tel" placeholder="(+995) 512 34 56 78" id="phone-number">
+                    <label for="form-textarea">How can I help you?</label>
+                    <textarea id="form-textarea" rows="10" placeholder="Write here your expectations..."></textarea>
+                </div>
+                <input type="submit" value="Send Message" class="btn" id="submit-btn">
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p></p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
