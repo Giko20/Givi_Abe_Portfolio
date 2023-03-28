@@ -387,7 +387,7 @@ section
 .input-box input, .input-box textarea
 {
     border-radius: .6rem;
-    color: var(--bg-color);
+    color: var(--dark-bg-color);
     font-size: 1.6rem;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
